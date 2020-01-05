@@ -1,0 +1,31 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+// *{
+//     outline: 2px solid red;
+// }
+.container, footer{
+    max-width: 1200px!important;
+    margin: 0 auto!important;
+}
+
+body{
+    background: #e6e6fa!important;
+}
+
+header, footer{
+    background: #014!important;
+}
+
+.header-title{
+    font-family: 'Gelasio', serif;
+}
+
+.menu-button{
+    top:50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
