@@ -1,5 +1,5 @@
 import Websites from './components/Websites';
-import Backend from './components/Backend';
+import Skills from './components/Skills';
 import Frontend from './components/Frontend';
 import Illustrations from './components/Illustrations';
 import LoadersAndAnimations from './components/LoadersAndAnimations';
@@ -27,9 +27,9 @@ export default {
         },
 
         {
-            path: '/back-end',
-            component: Backend,
-            name: 'Backend'
+            path: '/skills',
+            component: Skills,
+            name: 'Skills'
         },
         
         {

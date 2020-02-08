@@ -27,3 +27,7 @@ footer {
   cursor: pointer;
 }
 
+li {
+  list-style: none !important;
+}
+

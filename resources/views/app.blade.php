@@ -28,7 +28,7 @@
                             <h5 class="uppercase font-bold mb-4">Projecten</h5>
                             <ul>
                                 <li class="pb-2"><router-link to="/" exact>Websites</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Backend' }">Back-end</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Skills' }">Skills</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Frontend' }">Front-end</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Typography' }">Typography</router-link></li>
 
@@ -45,7 +45,7 @@
                         </section>
                     </aside>
                     <div class="primary flex-1">
-                        <router-view> </router-view>
+                        <router-view></router-view>
                     </div>
                 </main>
                 <footer class="bg-blue-800 p-4 flex items-center justify-between w-full absolute bottom-0 inset-x-0 px-8">
