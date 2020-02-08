@@ -1,10 +1,10 @@
 import Websites from './components/Websites';
 import Skills from './components/Skills';
 import Frontend from './components/Frontend';
-import Illustrations from './components/Illustrations';
+import CV from './components/CV';
 import LoadersAndAnimations from './components/LoadersAndAnimations';
 import Wallpapers from './components/Wallpapers';
-import Mascot from './components/about';
+import About from './components/About';
 import Typography from './components/Typography';
 import notFound from './components/notFound';
 
@@ -39,9 +39,9 @@ export default {
         },
 
         {
-            path: '/Illustrations',
-            component: Illustrations,
-            name: 'Illustrations'
+            path: '/cv',
+            component: CV,
+            name: 'CV'
         },
 
         {
