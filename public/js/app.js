@@ -37677,11 +37677,11 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", [
             _vm._v(
-              "Mijn huidige bijbaan als web developer bij een klein maar professioneel bedrijf in Yerseke. Mijn taken betreft het maken van websites dit doe ik met de volgende technieken."
+              "Mijn huidige bijbaan als web developer bij een klein maar professioneel bedrijf in Yerseke. Mijn taken betreft het maken van websites met Html, css, javascript, php en Wordpress"
             )
           ]),
           _vm._v(" "),
-          _c("i", [_vm._v("juni 2019 t/m heden")])
+          _c("i", { staticClass: "mt-2" }, [_vm._v("juni 2019 t/m heden")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "stage-2 mt-4" }, [
@@ -37695,7 +37695,7 @@ var staticRenderFns = [
             )
           ]),
           _vm._v(" "),
-          _c("i", [_vm._v("2017")])
+          _c("i", { staticClass: "mt-2" }, [_vm._v("2017")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "stage-3 mt-4" }, [
@@ -37711,7 +37711,7 @@ var staticRenderFns = [
             )
           ]),
           _vm._v(" "),
-          _c("i", [_vm._v("2017")])
+          _c("i", { staticClass: "mt-2" }, [_vm._v("2017")])
         ])
       ])
     ])
@@ -54035,7 +54035,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Websites__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Websites */ "./resources/js/components/Websites.vue");
 /* harmony import */ var _components_Skills__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Skills */ "./resources/js/components/Skills.vue");
 /* harmony import */ var _components_Frontend__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Frontend */ "./resources/js/components/Frontend.vue");
-/* harmony import */ var _components_CV__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/CV */ "./resources/js/components/CV.vue");
+/* harmony import */ var _components_CV__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/CV */ "./resources/js/components/CV.vue");
 /* harmony import */ var _components_LoadersAndAnimations__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/LoadersAndAnimations */ "./resources/js/components/LoadersAndAnimations.vue");
 /* harmony import */ var _components_Wallpapers__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Wallpapers */ "./resources/js/components/Wallpapers.vue");
 /* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/About */ "./resources/js/components/About.vue");
@@ -54069,7 +54069,7 @@ __webpack_require__.r(__webpack_exports__);
     name: 'Frontend'
   }, {
     path: '/cv',
-    component: _components_CV__WEBPACK_IMPORTED_MODULE_9__["default"],
+    component: _components_CV__WEBPACK_IMPORTED_MODULE_3__["default"],
     name: 'CV'
   }, {
     path: '/loaders-Animations',

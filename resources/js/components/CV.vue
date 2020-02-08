@@ -17,18 +17,18 @@
             <h2 class="text-xl font-bold ">Relevante werk/stage ervaring:</h2>
             <div class="stage-1 mt-4">
                 <h3 class="font-bold mb-2">Dorstcommunicatie Yerseke</h3>
-                <p>Mijn huidige bijbaan als web developer bij een klein maar professioneel bedrijf in Yerseke. Mijn taken betreft het maken van websites dit doe ik met de volgende technieken.</p>
-                <i>juni 2019 t/m heden</i>
+                <p>Mijn huidige bijbaan als web developer bij een klein maar professioneel bedrijf in Yerseke. Mijn taken betreft het maken van websites met Html, css, javascript, php en Wordpress.</p>
+                <i class="mt-2">juni 2019 t/m heden</i>
             </div>
             <div class="stage-2 mt-4">
                 <h3 class="font-bold mb-2">Stage gemeente goes systeembeheer</h3>
                 <p>Eindstage MBO 3 heb ik doorlopen bij GR de Bevelanden. Bij deze toen nieuwe organisatie werd mij aangeboden om stage te lopen op de afdeling systeembeheer. Deze stage beviel mij goed ondanks het eigenlijk een stage was voor MBO 4 / HBO. Het volgende heb ik geleerd / mee gewerkt.</p>
-                <i>2017</i>
+                <i class="mt-2">2017</i>
             </div>
             <div class="stage-3 mt-4">
                 <h3 class="font-bold mb-2">Servicedeskmedewerker ICT afdeling Waterschappen Middelburg</h3>
                 <p>Mijn eerste ICT gerelateerde stage heb ik doorlopen bij Waterschap Scheldestromen Middelburg. Veel geleerd op het gebied van servers / clients en werken in een team. Omdat ik interesse had jegens software heb ik een proef Windows applicatie mogen maken met C# en SQL. Dit onder leiding van een intern software developer. Hoewel ik weinig kennis had betreft programmeren heb ik hier veel van hem geleerd.</p>
-                <i>2017</i>
+                <i class="mt-2">2017</i>
             </div>
         </div>
     </div>
