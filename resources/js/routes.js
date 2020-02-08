@@ -4,7 +4,7 @@ import Frontend from './components/Frontend';
 import Illustrations from './components/Illustrations';
 import LoadersAndAnimations from './components/LoadersAndAnimations';
 import Wallpapers from './components/Wallpapers';
-import Mascot from './components/Mascot';
+import Mascot from './components/about';
 import Typography from './components/Typography';
 import notFound from './components/notFound';
 
@@ -31,7 +31,7 @@ export default {
             component: Skills,
             name: 'Skills'
         },
-        
+
         {
             path: '/front-end',
             component: Frontend,

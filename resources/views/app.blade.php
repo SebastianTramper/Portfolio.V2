@@ -27,8 +27,8 @@
                         <section class="mb-8">
                             <h5 class="uppercase font-bold mb-4">Informatie</h5>
                             <ul>
-                                <li class="pb-2"><router-link :to="{ name: 'Mascot' }">Mascot</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Illustrations' }">Illustrations</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Mascot' }">Over mij</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Illustrations' }">Curriculum vitae</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Skills' }">Skills</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'LoadersAndAnimations' }">Loaders and animations</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Wallpapers' }">Wallpapers</router-link></li>
