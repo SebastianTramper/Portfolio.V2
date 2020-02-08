@@ -14,9 +14,9 @@
     <body class="relative">
         <div id="app">
             <nav-menu></nav-menu>
-            <section class="container bg-white"> 
+            <section class="container bg-white">
                 <header class="py-6 mb-16">
-                    <section class="px-8 text-4xl"> 
+                    <section class="px-8 text-4xl">
                         <h1 class="header-title text-white">
                             Sebastian Tramper
                         </h1>
@@ -24,23 +24,22 @@
                 </header>
                 <main class="flex px-8 pb-32">
                     <aside class="w-64 hidden lg:block">
-                        <section class="mb-16">
-                            <h5 class="uppercase font-bold mb-4">Projecten</h5>
-                            <ul>
-                                <li class="pb-2"><router-link to="/" exact>Websites</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Skills' }">Skills</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Frontend' }">Front-end</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Typography' }">Typography</router-link></li>
-
-                            </ul>
-                        </section>
                         <section class="mb-8">
                             <h5 class="uppercase font-bold mb-4">Informatie</h5>
                             <ul>
                                 <li class="pb-2"><router-link :to="{ name: 'Mascot' }">Mascot</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Illustrations' }">Illustrations</router-link></li>                                 
+                                <li class="pb-2"><router-link :to="{ name: 'Illustrations' }">Illustrations</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Skills' }">Skills</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'LoadersAndAnimations' }">Loaders and animations</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Wallpapers' }">Wallpapers</router-link></li>               
+                                <li class="pb-2"><router-link :to="{ name: 'Wallpapers' }">Wallpapers</router-link></li>
+                            </ul>
+                        </section>
+                        <section class="mb-16">
+                            <h5 class="uppercase font-bold mb-4">Projecten</h5>
+                            <ul>
+                                <li class="pb-2"><router-link to="/" exact>Websites</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Frontend' }">Front-end</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Typography' }">Typography</router-link></li>
                             </ul>
                         </section>
                     </aside>
@@ -49,7 +48,7 @@
                     </div>
                 </main>
                 <footer class="bg-blue-800 p-4 flex items-center justify-between w-full absolute bottom-0 inset-x-0 px-8">
-                    <p class="text-white font-bold uppercase">Sebastian Tramper<p>                                
+                    <p class="text-white font-bold uppercase">Sebastian Tramper<p>
                     <ul class="">
                         <li class="inline-block px-2"><a href="mailto:83488@glr.nl"><img src="/images/mail.png" alt=""></a></li>
                         <li class="inline-block px-2"><a href="https://www.linkedin.com/in/sebastian-tramper-91525a12a/"><img src="/images/linkedin.png" alt=""></a></li>
