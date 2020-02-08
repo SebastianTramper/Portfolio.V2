@@ -57,9 +57,9 @@ export default {
         },
 
         {
-            path: '/Mascot',
-            component: Mascot,
-            name: 'Mascot'
+            path: '/about',
+            component: About,
+            name: 'About'
         },
 
         {
