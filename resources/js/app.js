@@ -27,16 +27,13 @@ const app = new Vue({
     methods: {
         randomColors: function(){
             var arrayOfColor = ["#1864de", "#c712db", "#db095d", "#15bce6", "#14d914", "#f2ef1b", "#e39714","#ff00a6","#00f000","#00b4f0", "#a88548", "#ffc766"];
-
-
             var projects = document.querySelectorAll(".aProject");
 
             for(var x = 0;x < projects.length;x++){
                 var randomColor = arrayOfColor[Math.floor(Math.random()*arrayOfColor.length)];
-
                 projects[x].style.borderColor = randomColor;
             }
-            console.log(randomColor);
+
         },
         fontIncrement: function () {
 

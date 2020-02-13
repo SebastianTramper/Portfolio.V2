@@ -2237,6 +2237,41 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -2311,7 +2346,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "project",
-  props: ['title', 'imageUrl', 'projectUrl']
+  props: ['title', 'imageUrl', 'projectUrl', 'talenUrl']
 });
 
 /***/ }),
@@ -38310,53 +38345,135 @@ var render = function() {
       "section",
       { staticClass: "allProject bg-gray-200 p-4" },
       [
-        _c("project", {
-          attrs: {
-            title: "Food blog / CMS",
-            imageUrl: "/images/uniekegerechten1.png",
-            projectUrl: "/food_blog"
-          }
-        }),
+        _c(
+          "project",
+          {
+            attrs: {
+              title: "Food blog / CMS",
+              imageUrl: "/images/uniekegerechten1.png",
+              projectUrl: "/food_blog"
+            }
+          },
+          [
+            _c("img", { attrs: { src: "/images/talen/html-5.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", {
+              attrs: { src: "/images/talen/javascript.svg", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/laravel.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/mysql.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/sass.png", alt: "" } })
+          ]
+        ),
         _vm._v(" "),
-        _c("project", {
-          attrs: {
-            title: "Data visualisatie",
-            imageUrl: "/images/data.png",
-            projectUrl: "/data_visualisatie"
-          }
-        }),
+        _c(
+          "project",
+          {
+            attrs: {
+              title: "Data visualisatie",
+              imageUrl: "/images/data.png",
+              projectUrl: "/data_visualisatie"
+            }
+          },
+          [
+            _c("img", { attrs: { src: "/images/talen/json.png", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/html-5.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", {
+              attrs: { src: "/images/talen/javascript.svg", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/svg.png", alt: "" } })
+          ]
+        ),
         _vm._v(" "),
-        _c("project", {
-          attrs: {
-            title: "Vuejs / Axios CRUD",
-            imageUrl: "/images/vue1.png",
-            projectUrl: "/vue_crud"
-          }
-        }),
+        _c(
+          "project",
+          {
+            attrs: {
+              title: "Vuejs / Axios CRUD",
+              imageUrl: "/images/vue1.png",
+              projectUrl: "/vue_crud"
+            }
+          },
+          [
+            _c("img", { attrs: { src: "/images/talen/html-5.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/vue-9.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/axios.png", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/php.png", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/mysql.svg", alt: "" } })
+          ]
+        ),
         _vm._v(" "),
-        _c("project", {
-          attrs: {
-            title: "Reservering ouderavond",
-            imageUrl: "/images/ouderavond.png",
-            projectUrl: "/ouderavond"
-          }
-        }),
+        _c(
+          "project",
+          {
+            attrs: {
+              title: "Reservering ouderavond",
+              imageUrl: "/images/ouderavond.png",
+              projectUrl: "/ouderavond"
+            }
+          },
+          [
+            _c("img", { attrs: { src: "/images/talen/php.png", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/mysql.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/html-5.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/jquery.png", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/sass.png", alt: "" } })
+          ]
+        ),
         _vm._v(" "),
-        _c("project", {
-          attrs: {
-            title: "fake social media",
-            imageUrl: "/images/work2.png",
-            projectUrl: "/social_media"
-          }
-        }),
+        _c(
+          "project",
+          {
+            attrs: {
+              title: "fake social media",
+              imageUrl: "/images/work2.png",
+              projectUrl: "/social_media"
+            }
+          },
+          [
+            _c("img", { attrs: { src: "/images/talen/php.png", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/mysql.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/html-5.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/css-5.svg", alt: "" } })
+          ]
+        ),
         _vm._v(" "),
-        _c("project", {
-          attrs: {
-            title: "Kapsters aan huis",
-            imageUrl: "/images/kapster.png",
-            projectUrl: "/kapsters"
-          }
-        })
+        _c(
+          "project",
+          {
+            attrs: {
+              title: "Kapsters aan huis",
+              imageUrl: "/images/kapster.png",
+              projectUrl: "/kapsters"
+            }
+          },
+          [
+            _c("img", { attrs: { src: "/images/talen/html-5.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/talen/css-5.svg", alt: "" } }),
+            _vm._v(" "),
+            _c("img", {
+              attrs: { src: "/images/talen/javascript.svg", alt: "" }
+            })
+          ]
+        )
       ],
       1
     )
@@ -38464,29 +38581,10 @@ var render = function() {
       ]
     ),
     _vm._v(" "),
-    _vm._m(0)
+    _c("div", { staticClass: "used_lang" }, [_vm._t("default")], 2)
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "used_lang" }, [
-      _c("img", { attrs: { src: "/images/talen/php.png", alt: "" } }),
-      _vm._v(" "),
-      _c("img", { attrs: { src: "/images/talen/html-5.svg", alt: "" } }),
-      _vm._v(" "),
-      _c("img", { attrs: { src: "/images/talen/javascript.svg", alt: "" } }),
-      _vm._v(" "),
-      _c("img", { attrs: { src: "/images/talen/laravel.svg", alt: "" } }),
-      _vm._v(" "),
-      _c("img", { attrs: { src: "/images/talen/mysql.svg", alt: "" } }),
-      _vm._v(" "),
-      _c("img", { attrs: { src: "/images/talen/axios.png", alt: "" } })
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -53614,8 +53712,6 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
         var randomColor = arrayOfColor[Math.floor(Math.random() * arrayOfColor.length)];
         projects[x].style.borderColor = randomColor;
       }
-
-      console.log(randomColor);
     },
     fontIncrement: function fontIncrement() {
       var paragrafs = document.querySelectorAll('p');
