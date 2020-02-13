@@ -2,7 +2,7 @@ import Websites from './components/Websites';
 import Skills from './components/Skills';
 import Frontend from './components/Frontend';
 import CV from './components/CV';
-import LoadersAndAnimations from './components/LoadersAndAnimations';
+import Contact from './components/Contact';
 import Wallpapers from './components/Wallpapers';
 import About from './components/About';
 import Typography from './components/Typography';
@@ -45,9 +45,9 @@ export default {
         },
 
         {
-            path: '/loaders-Animations',
-            component: LoadersAndAnimations,
-            name: 'LoadersAndAnimations'
+            path: '/contact',
+            component: Contact,
+            name: 'Contact'
         },
 
         {

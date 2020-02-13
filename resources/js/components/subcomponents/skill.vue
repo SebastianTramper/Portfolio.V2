@@ -1,8 +1,8 @@
 <template>
-    <div class="w-3/4">
+    <div class="">
         <u>
-            <li  class="p-4 progess-bar w-full bg-blue-900 text-white mb-2">
-                <slot></slot>
+            <li  class="p-4 progess-bar text-white mb-2 shadow-md" >
+                <p><slot></slot></p>
             </li>
         </u>
     </div>
@@ -12,7 +12,7 @@
 export default {
     name: 'skill',
     props: [
-        'titel'
+        'titel',
     ]
 }
 </script>

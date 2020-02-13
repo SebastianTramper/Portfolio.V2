@@ -15,10 +15,10 @@
         <div id="app">
             <nav-menu></nav-menu>
             <section class="container bg-white">
-                <header class="py-6 mb-16">
+                <header class="py-2 mb-16" style="background-color: #36558F!important;">
                     <section class="px-8 text-4xl flex align-items-center">
-                        <div class="mt-6 mb-4 w-40">
-                            <img src="/images/profiel.png" alt="">
+                        <div class="mt-6 mb-4 w-20">
+                            <img src="/images/profiel.png" alt="" class="rounded-full">
                         </div>
                         <h1 class="header-title text-white ml-8 self-center justify-center">
                             Sebastian Tramper
@@ -33,7 +33,7 @@
                                 <li class="pb-2"><router-link :to="{ name: 'About' }">Over mij</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'CV' }">Curriculum vitae</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Skills' }">Skills</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'LoadersAndAnimations' }">Loaders and animations</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Contact' }">Contact</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Wallpapers' }">Wallpapers</router-link></li>
                             </ul>
                         </section>
@@ -50,9 +50,9 @@
                         <router-view></router-view>
                     </div>
                 </main>
-                <footer class="bg-blue-800 p-4 flex items-center justify-between w-full absolute bottom-0 inset-x-0 px-8">
+                <footer class="p-4 flex items-center justify-between w-full absolute bottom-0 inset-x-0 px-8" style="background: #FFB30F!important;">
                     <p class="text-white font-bold uppercase">Sebastian Tramper<p>
-                    <ul class="">
+                    <ul class="leading-none">
                         <li class="inline-block px-2"><a href="mailto:83488@glr.nl"><img src="/images/mail.png" alt=""></a></li>
                         <li class="inline-block px-2"><a href="https://www.linkedin.com/in/sebastian-tramper-91525a12a/"><img src="/images/linkedin.png" alt=""></a></li>
                         <li class="inline-block px-2"><a href="https://github.com/SebastianTramper"><img src="/images/github.png" alt=""></a></li>

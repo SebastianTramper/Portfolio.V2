@@ -1,9 +1,6 @@
 <template>
     <div>
-        <h1 class="font-normal text-3xl leading-none test">
-            Wat informatie over mij
-        </h1>
-        <div class="mt-8 bg-gray-200 p-2 w-4/5">
+        <div class="bg-gray-200 p-4 w-4/5">
             <p>Hi, wat leuk dat je op mijn website terecht bent gekomen! Mijn naam is Sebastian. Ik ben een student website- en webdeveloper uit Zeeland, om precies te zijn Waarde in de gemeente Reimerswaal. Zoals een echt Zeeuw betaamt, houd ik ervan om hard te werken en kwaliteit staat daarbij hoog in het vaandel!</p>
 
             <p class="mt-6">Ik ben geboren in het jaar dat Richard Krajicek als eerste Nederlander ooit Wimbledon won en ‘Killing Me Softly’ van de Fugees de meest verkochte single was. Can you guess? 😊</p>

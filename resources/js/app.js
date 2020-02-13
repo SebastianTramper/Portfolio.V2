@@ -14,6 +14,6 @@ const app = new Vue({
     router: new VueRouter(routes),
 
     data: {
-        menu: false,
+        menu: false
     }
 });
