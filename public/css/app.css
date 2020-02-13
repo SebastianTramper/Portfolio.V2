@@ -16,6 +16,14 @@ footer {
   background: #014 !important;
 }
 
+p {
+  font-size: 16px;
+}
+
+.aside li:hover {
+  font-weight: bold;
+}
+
 .header-title {
   font-family: "Gelasio", serif;
 }
@@ -105,12 +113,17 @@ li {
   }
 }
 
+.allProject {
+  background: transparent !important;
+}
+
 .aProjectContainer:hover:after {
   -webkit-animation: overlay 2s forwards;
           animation: overlay 2s forwards;
 }
 
-.aProjectContainerHeader:hover h1 {
+.aProjectContainerHeader:hover h1,
+.aProjectContainerHeader:hover .used_lang {
   display: none;
 }
 
@@ -120,6 +133,7 @@ li {
   height: 2px;
   background: #36558f;
   content: "";
+  padding: 2px;
 }
 
 .aProject {
@@ -141,5 +155,30 @@ li {
   width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0.9);
+}
+
+.used_lang {
+  position: absolute;
+  bottom: 3rem;
+  left: 10px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  width: 95%;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.used_lang img {
+  width: 3rem;
+}
+
+.used_lang img {
+  margin-right: 1rem;
+}
+
+.settings {
+  cursor: pointer;
 }
 

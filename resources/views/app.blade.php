@@ -26,7 +26,7 @@
                     </section>
                 </header>
                 <main class="flex px-8 pb-32">
-                    <aside class="w-64 hidden lg:block">
+                    <aside class="w-64 hidden lg:block aside">
                         <section class="mb-8">
                             <h5 class="uppercase font-bold mb-4">Informatie</h5>
                             <ul>
@@ -40,17 +40,30 @@
                             <h5 class="uppercase font-bold mb-4">Projecten</h5>
                             <ul>
                                 <li class="pb-2"><router-link to="/" exact>Alle projecten</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Frontend' }">Front-end</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Typography' }">Typography</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Food_blog' }">Food blog</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Data_visualisatie' }">Data visualisatie</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Vue_crud' }">Vue / Axios crud</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Ouderavond' }">Reservering ouderavond</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Social_media' }">Fake Social media</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'Kapsters' }">Kapsters aan huis</router-link></li>
+                            </ul>
+                        </section>
+
+                        <section class="mb-16 settings">
+                            <h5 class="uppercase font-bold mb-4">Settings</h5>
+                            <ul>
+                                <li class="pb-2"  v-on:click="fontIncrement">larger font</li>
+                                <li class="pb-2"  v-on:click="fontDecrement">Smaller font</li>
                             </ul>
                         </section>
                     </aside>
                     <div class="primary flex-1">
                         <router-view></router-view>
                     </div>
+
                 </main>
                 <footer class="p-4 flex items-center justify-between w-full absolute bottom-0 inset-x-0 px-8" style="background: #EF6F6C!important;">
-                    <p class="text-white font-bold">VueJs / Laravel spa<p>
+                    <p class="text-white font-bold">VueJs | Laravel | Single page application<p>
                     <ul class="leading-none">
                         <li class="inline-block px-2"><a href="mailto:83488@glr.nl"><img src="/images/mail.png" alt=""></a></li>
                         <li class="inline-block px-2"><a href="https://www.linkedin.com/in/sebastian-tramper-91525a12a/"><img src="/images/linkedin.png" alt=""></a></li>

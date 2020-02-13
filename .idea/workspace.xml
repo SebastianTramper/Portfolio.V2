@@ -135,7 +135,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,7 +171,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581163535166</updated>
       <workItem from="1581163537188" duration="4925000" />
-      <workItem from="1581584774563" duration="10315000" />
+      <workItem from="1581584774563" duration="11355000" />
+      <workItem from="1581608569279" duration="10516000" />
     </task>
     <servers />
   </component>
@@ -179,14 +180,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1670" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581610551618">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1670" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1581610551618" />
     <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581589620004">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1581589620004" />
-    <state x="684" y="226" width="1192" height="782" key="search.everywhere.popup" timestamp="1581595681201">
+    <state x="1700" y="279" key="FileChooserDialogImpl" timestamp="1581608566617">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1700" y="279" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1581608566617" />
+    <state x="684" y="226" width="1192" height="782" key="search.everywhere.popup" timestamp="1581617267016">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581519634106" />
-    <state x="684" y="226" width="1192" height="782" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1581595681201" />
+    <state x="684" y="226" width="1192" height="782" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1581617267016" />
   </component>
 </project>
