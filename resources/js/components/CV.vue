@@ -1,12 +1,18 @@
 <template>
     <div>
         <div class="eduction bg-gray-200 p-4">
+            <h2 class="text-xl font-bold">Huidige opleiding:</h2>
+            <div class="eduction-1 mt-4">
+                <p><span class="font-bold block mb-2">MBO niveau 4</span>(Grafisch Lyceum Rotterdam 2018 t/m heden) </p>
+            </div>
+        </div>
+        <div class="eduction mt-8 bg-gray-200 p-4">
             <h2 class="text-xl font-bold">Genoten opleidingen:</h2>
             <div class="eduction-1 mt-4">
                 <p><span class="font-bold block mb-2">MBO 3: ICT beheer</span>(Scalda Vlissingen 2016 t/m 2018) </p>
             </div>
             <div class="eduction-2 mt-4">
-                <p><span class="font-bold block mb-2">MBO 4: Software Developer</span>(Grafisch Lyceum Rotterdam 2018 t/m 2021)</p>
+                <p><span class="font-bold block mb-2">MBO 2: ICT beheer</span>(Scalda Vlissingen 2014 t/m 2016) </p>
             </div>
         </div>
 

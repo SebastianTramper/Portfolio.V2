@@ -31,3 +31,115 @@ li {
   list-style: none !important;
 }
 
+.progess-bar {
+  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+}
+
+.progess-bar p {
+  text-shadow: 1px 1px #000;
+}
+
+.mail {
+  padding: 20px;
+  background: #36558f;
+  color: #fff;
+  width: 25%;
+  cursor: pointer;
+}
+
+.contact:hover {
+  opacity: 0.8;
+}
+
+.allProject {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5rem;
+}
+
+.aProject {
+  cursor: pointer;
+  height: 100%;
+  z-index: 1;
+}
+
+.aProjectContainerHeader {
+  position: relative;
+}
+
+.aProjectContainerHeader h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 500;
+  color: #36558f;
+  text-transform: uppercase;
+}
+
+.aProject:hover {
+  opacity: 1;
+}
+
+@-webkit-keyframes overlay {
+  from {
+    height: 100%;
+  }
+
+  to {
+    height: 0%;
+  }
+}
+
+@keyframes overlay {
+  from {
+    height: 100%;
+  }
+
+  to {
+    height: 0%;
+  }
+}
+
+.aProjectContainer:hover:after {
+  -webkit-animation: overlay 2s forwards;
+          animation: overlay 2s forwards;
+}
+
+.aProjectContainerHeader:hover h1 {
+  display: none;
+}
+
+.aProjectContainerHeader h1::after {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #36558f;
+  content: "";
+}
+
+.aProject {
+  border: 3px solid #36558F;
+}
+
+.aProject::after {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.aProjectContainer::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+}
+

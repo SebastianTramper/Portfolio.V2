@@ -3,7 +3,6 @@ import Skills from './components/Skills';
 import Frontend from './components/Frontend';
 import CV from './components/CV';
 import Contact from './components/Contact';
-import Wallpapers from './components/Wallpapers';
 import About from './components/About';
 import Typography from './components/Typography';
 import notFound from './components/notFound';
@@ -48,12 +47,6 @@ export default {
             path: '/contact',
             component: Contact,
             name: 'Contact'
-        },
-
-        {
-            path: '/wallpapers',
-            component: Wallpapers,
-            name: 'Wallpapers'
         },
 
         {

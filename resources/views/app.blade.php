@@ -18,7 +18,7 @@
                 <header class="py-2 mb-16" style="background-color: #36558F!important;">
                     <section class="px-8 text-4xl flex align-items-center">
                         <div class="mt-6 mb-4 w-20">
-                            <img src="/images/profiel.png" alt="" class="rounded-full">
+                            <img src="/images/profiel.jpg" alt="" class="rounded-full">
                         </div>
                         <h1 class="header-title text-white ml-8 self-center justify-center">
                             Sebastian Tramper
@@ -34,13 +34,12 @@
                                 <li class="pb-2"><router-link :to="{ name: 'CV' }">Curriculum vitae</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Skills' }">Skills</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Contact' }">Contact</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Wallpapers' }">Wallpapers</router-link></li>
                             </ul>
                         </section>
                         <section class="mb-16">
                             <h5 class="uppercase font-bold mb-4">Projecten</h5>
                             <ul>
-                                <li class="pb-2"><router-link to="/" exact>Websites</router-link></li>
+                                <li class="pb-2"><router-link to="/" exact>Alle projecten</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Frontend' }">Front-end</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Typography' }">Typography</router-link></li>
                             </ul>
@@ -50,8 +49,8 @@
                         <router-view></router-view>
                     </div>
                 </main>
-                <footer class="p-4 flex items-center justify-between w-full absolute bottom-0 inset-x-0 px-8" style="background: #FFB30F!important;">
-                    <p class="text-white font-bold uppercase">Sebastian Tramper<p>
+                <footer class="p-4 flex items-center justify-between w-full absolute bottom-0 inset-x-0 px-8" style="background: #EF6F6C!important;">
+                    <p class="text-white font-bold">VueJs / Laravel spa<p>
                     <ul class="leading-none">
                         <li class="inline-block px-2"><a href="mailto:83488@glr.nl"><img src="/images/mail.png" alt=""></a></li>
                         <li class="inline-block px-2"><a href="https://www.linkedin.com/in/sebastian-tramper-91525a12a/"><img src="/images/linkedin.png" alt=""></a></li>
@@ -60,7 +59,6 @@
                 </footer>
             </section>
         </div>
-
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
         <script src="/js/app.js"></script>
     </body>
