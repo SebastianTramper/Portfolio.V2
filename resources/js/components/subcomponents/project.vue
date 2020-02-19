@@ -7,11 +7,6 @@
         </a>
         <div class="used_lang">
             <slot></slot>
-<!--            <img src="/images/talen/html-5.svg" alt="">-->
-<!--            <img src="/images/talen/javascript.svg" alt="">-->
-<!--            <img src="/images/talen/laravel.svg" alt="">-->
-<!--            <img src="/images/talen/mysql.svg" alt="">-->
-<!--            <img src="/images/talen/axios.png" alt="">-->
         </div>
     </article>
 </template>

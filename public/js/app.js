@@ -1854,6 +1854,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -1867,6 +1869,53 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -1949,13 +1998,19 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./subcomponents/project-content */ "./resources/js/components/subcomponents/project-content.vue");
 //
 //
 //
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    projectContent: _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
+});
 
 /***/ }),
 
@@ -1968,13 +2023,19 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./subcomponents/project-content */ "./resources/js/components/subcomponents/project-content.vue");
 //
 //
 //
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    projectContent: _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
+});
 
 /***/ }),
 
@@ -1987,12 +2048,19 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./subcomponents/project-content */ "./resources/js/components/subcomponents/project-content.vue");
 //
 //
 //
 //
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Kapsters"
+  name: "Kapsters",
+  components: {
+    projectContent: _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -2006,12 +2074,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./subcomponents/project-content */ "./resources/js/components/subcomponents/project-content.vue");
 //
 //
 //
 //
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Ouderavond"
+  name: "Ouderavond",
+  components: {
+    projectContent: _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -2185,12 +2261,18 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./subcomponents/project-content */ "./resources/js/components/subcomponents/project-content.vue");
 //
 //
 //
 //
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Social_media"
+  name: "Social_media",
+  components: {
+    projectContent: _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -2204,12 +2286,19 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./subcomponents/project-content */ "./resources/js/components/subcomponents/project-content.vue");
 //
 //
 //
 //
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Vue_crud"
+  name: "Vue_crud",
+  components: {
+    projectContent: _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -2317,10 +2406,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/subcomponents/project.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/subcomponents/project.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/subcomponents/project-content.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/subcomponents/project-content.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2331,6 +2420,36 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "project-content",
+  props: ['content_image', 'github_link', 'website_link']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/subcomponents/project.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/subcomponents/project.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 //
 //
 //
@@ -37776,7 +37895,11 @@ var staticRenderFns = [
       _c("div", { staticClass: "bg-gray-200 p-4 w-4/5" }, [
         _c("p", [
           _vm._v(
-            "Hi, wat leuk dat je op mijn website terecht bent gekomen! Mijn naam is Sebastian. Ik ben een student website- en webdeveloper uit Zeeland, om precies te zijn Waarde in de gemeente Reimerswaal. Zoals een echt Zeeuw betaamt, houd ik ervan om hard te werken en kwaliteit staat daarbij hoog in het vaandel!"
+            "Hallo, wat leuk dat je op mijn website terecht bent gekomen! Mijn naam is Sebastian. Ik ben een student website- en webdeveloper uit Zeeland, om precies te zijn Waarde in de gemeente Reimerswaal.\n            "
+          ),
+          _c("br"),
+          _vm._v(
+            " Zoals een echt Zeeuw betaamt, houd ik ervan om hard te werken en kwaliteit staat daarbij hoog in het vaandel!"
           )
         ]),
         _vm._v(" "),
@@ -37788,7 +37911,11 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "mt-6" }, [
           _vm._v(
-            "In 2018 heb ik de MBO opleiding ‘ICT management’ afgerond en ben in hetzelfde jaar begonnen met de opleiding ‘Software developer’ op het Grafisch Lyceum in Rotterdam. Ik werk graag met HTML, CSS, SASS, Javascript, php, SQL. Nu ik deze basis technieken als best goed beheers ben ik overgestapt naar frameworks. Op dit moment (2019) ben ik me aan het verdiepen in het php framework Laravel en VueJs. Verder ben ik ook redelijk bekwaam met Linux webservers en soms pruts ik met bash scripts voor de hobby."
+            "In 2018 heb ik de MBO opleiding ‘ICT management’ afgerond en ben in hetzelfde jaar begonnen met de opleiding ‘Software developer’ op het Grafisch Lyceum in Rotterdam.\n            "
+          ),
+          _c("br"),
+          _vm._v(
+            "Ik werk graag met HTML, CSS, Javascript, php en SQL. Nu ik deze basis technieken goed beheers ben ik overgestapt naar frameworks. Op dit moment (2019) ben ik me aan het verdiepen in het php framework Laravel en VueJs. Verder ben ik ook redelijk bekwaam met Linux webservers."
           )
         ]),
         _vm._v(" "),
@@ -37847,7 +37974,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "eduction-1 mt-4" }, [
           _c("p", [
             _c("span", { staticClass: "font-bold block mb-2" }, [
-              _vm._v("MBO niveau 4")
+              _vm._v("MBO niveau 4 software developer")
             ]),
             _vm._v("(Grafisch Lyceum Rotterdam 2018 t/m heden) ")
           ])
@@ -37871,65 +37998,133 @@ var staticRenderFns = [
         _c("div", { staticClass: "eduction-2 mt-4" }, [
           _c("p", [
             _c("span", { staticClass: "font-bold block mb-2" }, [
-              _vm._v("MBO 2: ICT beheer")
+              _vm._v("MBO 2: Contructie bankwerker")
             ]),
-            _vm._v("(Scalda Vlissingen 2014 t/m 2016) ")
+            _vm._v("(Scalda Vlissingen 2012 t/m 2014) ")
           ])
         ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "stage mt-8 bg-gray-200 p-4" }, [
         _c("h2", { staticClass: "text-xl font-bold " }, [
-          _vm._v("Relevante werk/stage ervaring:")
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "stage-1 mt-4" }, [
-          _c("h3", { staticClass: "font-bold mb-2" }, [
-            _vm._v("Dorstcommunicatie Yerseke")
-          ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "mb-2 " }, [
-            _vm._v(
-              "Mijn huidige bijbaan als web developer bij een klein maar professioneel bedrijf in Yerseke. Mijn taken betreft het maken van websites met Html, css, javascript, php en Wordpress."
-            )
-          ]),
-          _vm._v(" "),
-          _c("i", { staticClass: "mt-2 text-blue-800 font-bold" }, [
-            _vm._v("juni 2019 t/m heden")
-          ])
+          _vm._v("Stage ervaring:")
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "stage-2 mt-4" }, [
           _c("h3", { staticClass: "font-bold mb-2" }, [
-            _vm._v("Stage gemeente goes systeembeheer")
+            _vm._v("Gemeente Goes | Systeembeheer ")
           ]),
           _vm._v(" "),
           _c("p", { staticClass: "mb-2 " }, [
-            _vm._v(
-              "Eindstage MBO 3 heb ik doorlopen bij GR de Bevelanden. Bij deze toen nieuwe organisatie werd mij aangeboden om stage te lopen op de afdeling systeembeheer. Deze stage beviel mij goed ondanks het eigenlijk een stage was voor MBO 4 / HBO. Het volgende heb ik geleerd / mee gewerkt."
-            )
+            _c("ul", [
+              _c("li", [_vm._v("-\tLinux / Windows servers")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tActive directory")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tVMWARE")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tTopDesk")])
+            ])
           ]),
           _vm._v(" "),
-          _c("i", { staticClass: "mt-2 text-blue-800 font-bold" }, [
+          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
             _vm._v("2017")
           ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "stage-3 mt-4" }, [
           _c("h3", { staticClass: "font-bold mb-2" }, [
-            _vm._v(
-              "Servicedeskmedewerker ICT afdeling Waterschappen Middelburg"
-            )
+            _vm._v("Waterschappen Middelburg | Servicedeskmedewerker ICT")
           ]),
           _vm._v(" "),
           _c("p", { staticClass: "mb-2 " }, [
-            _vm._v(
-              "Mijn eerste ICT gerelateerde stage heb ik doorlopen bij Waterschap Scheldestromen Middelburg. Veel geleerd op het gebied van servers / clients en werken in een team. Omdat ik interesse had jegens software heb ik een proef Windows applicatie mogen maken met C# en SQL. Dit onder leiding van een intern software developer. Hoewel ik weinig kennis had betreft programmeren heb ik hier veel van hem geleerd."
-            )
+            _c("ul", [
+              _c("li", [_vm._v("-\tGebruikers helpen / te woord staan")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tSysteem problemen oplossen")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tClients configuren")]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v("-\tC# .net Windows applicatie bouwen (prototype)")
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("i", { staticClass: "mt-2 text-blue-800 font-bold" }, [
+          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
             _vm._v("2017")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "stage mt-8 bg-gray-200 p-4" }, [
+        _c("h2", { staticClass: "text-xl font-bold " }, [
+          _vm._v("Werk ervaring:")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "stage-1 mt-4" }, [
+          _c("h3", { staticClass: "font-bold mb-2" }, [
+            _vm._v("Dorstcommunicatie Yerseke | webdeveloper")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-2 " }, [
+            _c("ul", [
+              _c("li", [
+                _vm._v("-\tPhotoshop bestand naar HTML, CSS en Javascript")
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v("-\tWebsite beheerbaar maken met Wordpress & PHP")
+              ]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tBestaande websites bijwerken")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
+            _vm._v("juni 2019 t/m heden")
+          ]),
+          _vm._v(" "),
+          _c("hr")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "stage-4 mt-4" }, [
+          _c("h3", { staticClass: "font-bold mb-2" }, [
+            _vm._v("Meeuwsen Trade & Metal Services BV | Contructie bankwerker")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-2 " }, [
+            _c("ul", [
+              _c("li", [_vm._v("-\tContructie werkzaamheden")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tTig lassen")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tMig lassen")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
+            _vm._v("2014 - 2016")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "stage-4 mt-4" }, [
+          _c("h3", { staticClass: "font-bold mb-2" }, [
+            _vm._v("Tramper Technology BV | Contructie bankwerker")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-2 " }, [
+            _c("ul", [
+              _c("li", [_vm._v("-\tContructie werkzaamheden")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tTig lassen")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tMag lassen")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
+            _vm._v("2012 - 2014")
           ])
         ])
       ])
@@ -38053,9 +38248,21 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("h1", { staticClass: "font-normal text-3xl leading-none" }, [
-    _vm._v("\n    Typography\n")
-  ])
+  return _c(
+    "projectContent",
+    {
+      attrs: {
+        content_image: "/images/data.png",
+        github_link: "https://github.com/SebastianTramper/data_visualisatie",
+        website_link: "http://work.cf/data_visualisatie/"
+      }
+    },
+    [
+      _vm._v(
+        "\n    Een data visualisatie van het aantal slachteroffers van drugs in de Verenigde staten. U kunt zien hoeveel mensen er per staat overlijden aan drugs en of een staat boven of onder het landelijk gemiddelde zit. Er zit een tijdlijn van 15 jaar in. In dit project is samengewerkt met 2 vormgevers en 1 andere software developer. Het onderwerp was niet mijn eerste keus maar er is genoeg data van te vinden. In dit project hebben gebruikt gemaakt van een dataset Json. We hebben het interactief gemaakt met: Javascript (Ajax) & SVG. Er stond 2 weken voor dit project met in totaal 16 uur.\n"
+      )
+    ]
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -38079,9 +38286,21 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("h1", { staticClass: "font-normal text-3xl leading-none" }, [
-    _vm._v("\n    Colors\n")
-  ])
+  return _c(
+    "projectContent",
+    {
+      attrs: {
+        content_image: "/images/uniekegerechten.png",
+        github_link: "https://github.com/SebastianTramper/uniekegerechten",
+        website_link: "https://uniekegerechten.nl/"
+      }
+    },
+    [
+      _vm._v(
+        "\n    Een food blog met verschillende categorieën recepten. De site eigenaar kan zelf recepten toe voegen. Dit project is gemaakt met het framework Laravel. Ook heb ik gebruik gemaakt van Laravel/ui package voor user authenticatie. Voor het CMS heb ik gebruik gemaakt van het eloquent ORM. Deze website is ook echt in gebruik en er worden weekelijks nieuwe recepten op geplaats.\n"
+      )
+    ]
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -38105,7 +38324,21 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _c(
+    "projectContent",
+    {
+      attrs: {
+        content_image: "/images/kapster.png",
+        github_link: "https://github.com/SebastianTramper/work",
+        website_link: "http://work.cf/work/"
+      }
+    },
+    [
+      _vm._v(
+        "\n    mpus. Donec vitae sapien ut liberois leo. Sed fringilla mauris sit amet nibh. Donec  eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum  consectetuer eget, posuere ut,\n"
+      )
+    ]
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -38129,7 +38362,22 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _c(
+    "projectContent",
+    {
+      attrs: {
+        content_image: "/images/ouderavond.png",
+        github_link:
+          "https://github.com/MichelZuidema/Reserveringssite-Ouderavond",
+        website_link: "http://work.cf/Reserveringssite-Ouderavond/"
+      }
+    },
+    [
+      _vm._v(
+        "\n    Een project gemaakt in mijn eerste jaar samen met een medestudent hebben wij een reserverings website gemaakt voor ouderavonden op school. Met dit systeem kunnen ouders ingeschreven door middel van een unieke link met een token (Die wordt vergeleken in de database). De ouder kan dan een aanvraag doen er krijgt een mail zodra de mentor het heeft bevestig. We hebben in de project gebruik gemaakt van: HTML, SCSS, PHP en SQL.\n"
+      )
+    ]
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -38292,7 +38540,21 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _c(
+    "projectContent",
+    {
+      attrs: {
+        content_image: "/images/work2.png",
+        github_link: "https://github.com/SebastianTramper/work",
+        website_link: "http://work.cf/work/"
+      }
+    },
+    [
+      _vm._v(
+        "\n    Dit is een fake socialmedia applicatie voor ondernemers. Je kunt hier inloggen, registeren, diensten en projecten toevoegen en de feed bekijken. We kregen voor dit project maar 12 uur de tijd en is dus werkend maar niet prefect desondanks hebben wel veel geleerd van PHP en SQL.     "
+      )
+    ]
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -38316,7 +38578,21 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _c(
+    "projectContent",
+    {
+      attrs: {
+        content_image: "/images/vue_crud.png",
+        github_link: "https://github.com/SebastianTramper/Vue-js-crud",
+        website_link: "http://work.cf/Vue-js-crud/"
+      }
+    },
+    [
+      _vm._v(
+        "\n    Een CRUD gemaakt met VueJs, Axios en PHP. Met deze applicatie kun je leden toevoegen, uitlezen, updaten en verwijderen. Door middel van Axios kun je ajax request maken.\n"
+      )
+    ]
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -38543,6 +38819,61 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("h1", { staticClass: "text-lg" }, [
     _vm._v("page not found (404 error)")
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/subcomponents/project-content.vue?vue&type=template&id=3c7f76d1&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/subcomponents/project-content.vue?vue&type=template&id=3c7f76d1&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("section", {
+      staticClass: "content-image",
+      style: { background: "url(" + _vm.content_image + ") center/cover" }
+    }),
+    _vm._v(" "),
+    _c("article", { staticClass: "content-grid mt-8" }, [
+      _c("section", { staticClass: "content_text" }, [
+        _c("p", [_vm._t("default")], 2)
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "content-links" }, [
+        _c(
+          "a",
+          {
+            staticClass: "content_github",
+            attrs: { href: _vm.github_link, target: "_blank" }
+          },
+          [_c("p", [_vm._v("Github")])]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "content_website",
+            attrs: { href: _vm.website_link, target: "_blank" }
+          },
+          [_c("p", [_vm._v("Website")])]
+        )
+      ])
+    ])
   ])
 }
 var staticRenderFns = []
@@ -54700,6 +55031,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/subcomponents/project-content.vue":
+/*!*******************************************************************!*\
+  !*** ./resources/js/components/subcomponents/project-content.vue ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _project_content_vue_vue_type_template_id_3c7f76d1_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./project-content.vue?vue&type=template&id=3c7f76d1&scoped=true& */ "./resources/js/components/subcomponents/project-content.vue?vue&type=template&id=3c7f76d1&scoped=true&");
+/* harmony import */ var _project_content_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./project-content.vue?vue&type=script&lang=js& */ "./resources/js/components/subcomponents/project-content.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _project_content_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _project_content_vue_vue_type_template_id_3c7f76d1_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _project_content_vue_vue_type_template_id_3c7f76d1_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "3c7f76d1",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/subcomponents/project-content.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/subcomponents/project-content.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/subcomponents/project-content.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_project_content_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./project-content.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/subcomponents/project-content.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_project_content_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/subcomponents/project-content.vue?vue&type=template&id=3c7f76d1&scoped=true&":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/components/subcomponents/project-content.vue?vue&type=template&id=3c7f76d1&scoped=true& ***!
+  \**************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_project_content_vue_vue_type_template_id_3c7f76d1_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./project-content.vue?vue&type=template&id=3c7f76d1&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/subcomponents/project-content.vue?vue&type=template&id=3c7f76d1&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_project_content_vue_vue_type_template_id_3c7f76d1_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_project_content_vue_vue_type_template_id_3c7f76d1_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/subcomponents/project.vue":
 /*!***********************************************************!*\
   !*** ./resources/js/components/subcomponents/project.vue ***!
@@ -54943,8 +55343,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\code\portfolio\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\code\portfolio\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/sebastiantramper/code/portfolio/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/sebastiantramper/code/portfolio/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -7,6 +7,12 @@ footer {
   margin: 0 auto !important;
 }
 
+.avatar {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  box-shadow: 1px 1px 3px #000;
+}
+
 body {
   background: #e6e6fa !important;
 }
@@ -14,6 +20,10 @@ body {
 header,
 footer {
   background: #014 !important;
+}
+
+header h1 {
+  text-shadow: 1px 1px 6px #000;
 }
 
 p {
@@ -118,8 +128,8 @@ li {
 }
 
 .aProjectContainer:hover:after {
-  -webkit-animation: overlay 2s forwards;
-          animation: overlay 2s forwards;
+  -webkit-animation: overlay 1s forwards;
+          animation: overlay 1s forwards;
 }
 
 .aProjectContainerHeader:hover h1,
@@ -180,5 +190,36 @@ li {
 
 .settings {
   cursor: pointer;
+}
+
+.content-image {
+  padding-top: 50vh;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 6px #000;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  grid-gap: 1rem;
+}
+
+.content-links a:hover {
+  background: #e6e6fa;
+}
+
+.content_github,
+.content_website {
+  border: 1px solid #000000;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 20px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.content_github {
+  margin-bottom: 1rem;
 }
 
