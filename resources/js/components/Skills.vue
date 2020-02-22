@@ -1,7 +1,7 @@
 <template>
     <div>
-        <p class="mt-6 mb-6 p-4 bg-blue-300">
-            Een overzicht van de technieken waarmee ik werk. Hiermee wil ik aangeven waar mijn interesses liggen en waarmee ik heb gewerkt.
+        <p class="mb-6 p-4 font-bold " style="background-color: rgb(239, 111, 108);">
+            Een overzicht van de technieken waarmee ik werk.<br>  De percentages geven mijn vaardigheden en interesses weer.
         </p>
         <h2 class="font-bold block mb-2">Programmeer talen</h2>
         <skill v-bind:key='taal' v-bind:style="{ width: taal.procent,backgroundColor: taal.color}" v-for="taal in talen">{{taal.taal}}    {{taal.procent}}</skill>

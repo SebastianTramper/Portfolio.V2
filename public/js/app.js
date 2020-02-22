@@ -1955,6 +1955,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -37863,44 +37874,63 @@ var staticRenderFns = [
     return _c("div", [
       _c("div", { staticClass: "bg-gray-200 p-4 w-4/5" }, [
         _c("p", [
+          _vm._v("Hallo, wat leuk dat u op mijn website komt!"),
+          _c("br"),
           _vm._v(
-            "Hallo, wat leuk dat je op mijn website terecht bent gekomen! Mijn naam is Sebastian. Ik ben een student website- en webdeveloper uit Zeeland, om precies te zijn Waarde in de gemeente Reimerswaal.\n            "
+            " Mijn naam is Sebastian Tramper, student web-developer / software-developer uit Zeeland."
+          ),
+          _c("br"),
+          _vm._v(
+            " Om precies te zijn uit Waarde in de gemeente Reimerswaal.\n            "
           ),
           _c("br"),
           _vm._v(
             " Zoals een echt Zeeuw betaamt, houd ik ervan om hard te werken en kwaliteit staat daarbij hoog in het vaandel!"
           )
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "mt-6" }, [
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "bg-gray-200 p-4 w-4/5 mt-8" }, [
+        _c("p", [
           _vm._v(
-            "Ik ben geboren in het jaar dat Richard Krajicek als eerste Nederlander ooit Wimbledon won en ‘Killing Me Softly’ van de Fugees de meest verkochte single was. Can you guess? 😊"
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "mt-6" }, [
-          _vm._v(
-            "In 2018 heb ik de MBO opleiding ‘ICT management’ afgerond en ben in hetzelfde jaar begonnen met de opleiding ‘Software developer’ op het Grafisch Lyceum in Rotterdam.\n            "
+            "Na mijn middelbare schooltijd in 2012 startte ik de opleiding constructie bankwerker. "
           ),
           _c("br"),
           _vm._v(
-            "Ik werk graag met HTML, CSS, Javascript, php en SQL. Nu ik deze basis technieken goed beheers ben ik overgestapt naar frameworks. Op dit moment (2019) ben ik me aan het verdiepen in het php framework Laravel en VueJs. Verder ben ik ook redelijk bekwaam met Linux webservers."
+            "Deze opleiding was gebaseerd op vier dagen werken en één dag naar school. "
+          ),
+          _c("br"),
+          _vm._v(
+            " De opleiding betrof een periode van twee jaar en hierna heb ik nog eens twee jaar gewerkt in de metaal sector."
           )
         ]),
         _vm._v(" "),
         _c("p", { staticClass: "mt-6" }, [
-          _c("a", { staticClass: "font-black", attrs: { href: "/Skills" } }, [
-            _vm._v("klik hier ")
+          _c("span", { staticClass: "font-black" }, [_vm._v("carrièreswitch")]),
+          _c("br"),
+          _vm._v(
+            " Na een periode van vier jaar in de metaal sector heb ik er voor gekozen om een andere richting op te gaan. "
+          ),
+          _c("br"),
+          _vm._v(
+            "En 2016 startte ik de opleiding ICT management MBO niveau 3. Deze opleiding sprak mij erg aan, met name de stages waren heel leerzaam en uitdagend. "
+          ),
+          _c("a", { staticClass: "font-black", attrs: { href: "/cv" } }, [
+            _vm._v("(zie Curriculum vitae)")
           ]),
+          _c("br"),
+          _c("br"),
           _vm._v(
-            "voor een volledige lijst van technieken die ik aan het leren ben,"
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "mt-6" }, [
+            "\n        In mijn tweede jaar van deze opleiding groeide mijn intresse in programmeren en besloot ik om die richting op te gaan."
+          ),
+          _c("br"),
           _vm._v(
-            "Heb jij een verzoek of project waar ik jou bij kan helpen? Stuur me dan een berichtje en ik vertel je graag wat ik voor jou kan betekenen."
-          )
+            " Na het behalen van de opleidng ICT management begon ik dus de opleiding "
+          ),
+          _c("span", { staticClass: "font-black" }, [
+            _vm._v("Software developer")
+          ]),
+          _vm._v(" aan het Grafisch Lyceum te Rotterdam.")
         ])
       ])
     ])
@@ -37935,7 +37965,38 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("div", { staticClass: "eduction bg-gray-200 p-4" }, [
+      _c(
+        "div",
+        {
+          staticClass: "eduction p-4",
+          staticStyle: { "background-color": "rgb(239, 111, 108)" }
+        },
+        [
+          _c("div", { staticClass: "eduction-1" }, [
+            _c("p", [
+              _c("span", { staticClass: "font-bold block" }, [
+                _vm._v("Personalia; zie bijgeleverde mail")
+              ])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "eduction bg-gray-200 p-4 mt-8" }, [
+        _c("h2", { staticClass: "text-xl font-bold" }, [_vm._v("Ambitie:")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "eduction-1 mt-4" }, [
+          _c("p", [
+            _c("span", { staticClass: "font-bold block mb-2" }, [
+              _vm._v("Back-end programmeur")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Gespecialiseerd in php & laravel")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "eduction bg-gray-200 p-4 mt-8" }, [
         _c("h2", { staticClass: "text-xl font-bold" }, [
           _vm._v("Huidige opleiding:")
         ]),
@@ -37970,58 +38031,6 @@ var staticRenderFns = [
               _vm._v("MBO 2: Contructie bankwerker")
             ]),
             _vm._v("(Scalda Vlissingen 2012 t/m 2014) ")
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "stage mt-8 bg-gray-200 p-4" }, [
-        _c("h2", { staticClass: "text-xl font-bold " }, [
-          _vm._v("Stage ervaring:")
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "stage-2 mt-4" }, [
-          _c("h3", { staticClass: "font-bold mb-2" }, [
-            _vm._v("Gemeente Goes | Systeembeheer ")
-          ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "mb-2 " }, [
-            _c("ul", [
-              _c("li", [_vm._v("-\tLinux / Windows servers")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("-\tActive directory")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("-\tVMWARE")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("-\tTopDesk")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
-            _vm._v("2017")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "stage-3 mt-4" }, [
-          _c("h3", { staticClass: "font-bold mb-2" }, [
-            _vm._v("Waterschappen Middelburg | Servicedeskmedewerker ICT")
-          ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "mb-2 " }, [
-            _c("ul", [
-              _c("li", [_vm._v("-\tGebruikers helpen / te woord staan")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("-\tSysteem problemen oplossen")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("-\tClients configuren")]),
-              _vm._v(" "),
-              _c("li", [
-                _vm._v("-\tC# .net Windows applicatie bouwen (prototype)")
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
-            _vm._v("2017")
           ])
         ])
       ]),
@@ -38094,6 +38103,58 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
             _vm._v("2012 - 2014")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "stage mt-8 bg-gray-200 p-4" }, [
+        _c("h2", { staticClass: "text-xl font-bold " }, [
+          _vm._v("Stage ervaring:")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "stage-2 mt-4" }, [
+          _c("h3", { staticClass: "font-bold mb-2" }, [
+            _vm._v("Gemeente Goes | Systeembeheer ")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-2 " }, [
+            _c("ul", [
+              _c("li", [_vm._v("-\tLinux / Windows servers")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tActive directory")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tVMWARE")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tTopDesk")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
+            _vm._v("2017")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "stage-3 mt-4" }, [
+          _c("h3", { staticClass: "font-bold mb-2" }, [
+            _vm._v("Waterschappen Middelburg | Servicedeskmedewerker ICT")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-2 " }, [
+            _c("ul", [
+              _c("li", [_vm._v("-\tGebruikers helpen / te woord staan")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tSysteem problemen oplossen")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("-\tClients configuren")]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v("-\tC# .net Windows applicatie bouwen (prototype)")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
+            _vm._v("2017")
           ])
         ])
       ])
@@ -38228,7 +38289,7 @@ var render = function() {
     },
     [
       _vm._v(
-        "\n    Een data visualisatie van het aantal slachteroffers van drugs in de Verenigde staten. U kunt zien hoeveel mensen er per staat overlijden aan drugs en of een staat boven of onder het landelijk gemiddelde zit. Er zit een tijdlijn van 15 jaar in. In dit project is samengewerkt met 2 vormgevers en 1 andere software developer. Het onderwerp was niet mijn eerste keus maar er is genoeg data van te vinden. In dit project hebben gebruikt gemaakt van een dataset Json. We hebben het interactief gemaakt met: Javascript (Ajax) & SVG. Er stond 2 weken voor dit project met in totaal 16 uur.\n"
+        "\n    Een data visualisatie van het aantal slachteroffers van drugs in de Verenigde staten. U kunt zien hoeveel mensen er per staat overlijden aan drugs en of een staat boven of onder het landelijk gemiddelde zit. Er zit een tijdlijn van 15 jaar in. In dit project is samengewerkt met 2 vormgevers en 1 andere software developer. Het onderwerp was ons toegewezen door school. In dit project hebben gebruikt gemaakt van een dataset met Json. We hebben het interactief gemaakt met: Javascript (Ajax) & SVG. Er stond 2 weken voor dit project met in totaal 16 uur.\n"
       )
     ]
   )
@@ -38304,7 +38365,7 @@ var render = function() {
     },
     [
       _vm._v(
-        "\n   Dit is een website gemaakt voor mijn schoonzus, zij is kapster en knipt mensen aan huis. Om wat beter gevonden te kunnen worden heb ik aangeboden om een website te maken. Deze website was 1 van mijn eerste. Overigens heb ik wel veel geleerd van html, css & javascript.  \n"
+        "\n   Dit is een website gemaakt voor mijn schoonzus, zij is kapster en knipt mensen aan huis. Om beter gevonden te kunnen worden heb ik aangeboden om een website te maken. Deze website was een van mijn eerste projecten.  \n"
       )
     ]
   )
@@ -38343,7 +38404,7 @@ var render = function() {
     },
     [
       _vm._v(
-        "\n    Een project gemaakt in mijn eerste jaar samen met een medestudent hebben wij een reserverings website gemaakt voor ouderavonden op school. Met dit systeem kunnen ouders ingeschreven door middel van een unieke link met een token (Die wordt vergeleken in de database). De ouder kan dan een aanvraag doen er krijgt een mail zodra de mentor het heeft bevestig. We hebben in de project gebruik gemaakt van: HTML, SCSS, PHP en SQL.\n"
+        "\n    Een project gemaakt in mijn eerste jaar. Samen met een medestudent hebben wij een reserverings website gemaakt voor ouderavonden op school. Met dit systeem kunnen ouders inschrijven door middel van een unieke link met een token (die wordt vergeleken in de database). Zodra te aanvraag goed is gekeurd krijgt de ouder een bevestigingsmail.\n"
       )
     ]
   )
@@ -38373,11 +38434,7 @@ var render = function() {
   return _c(
     "div",
     [
-      _c("p", { staticClass: "mt-6 mb-6 p-4 bg-blue-300" }, [
-        _vm._v(
-          "\n        Een overzicht van de technieken waarmee ik werk. Hiermee wil ik aangeven waar mijn interesses liggen en waarmee ik heb gewerkt.\n    "
-        )
-      ]),
+      _vm._m(0),
       _vm._v(" "),
       _c("h2", { staticClass: "font-bold block mb-2" }, [
         _vm._v("Programmeer talen")
@@ -38487,7 +38544,27 @@ var render = function() {
     2
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "p",
+      {
+        staticClass: "mb-6 p-4 font-bold ",
+        staticStyle: { "background-color": "rgb(239, 111, 108)" }
+      },
+      [
+        _vm._v("\n        Een overzicht van de technieken waarmee ik werk."),
+        _c("br"),
+        _vm._v(
+          "  De percentages geven mijn vaardigheden en interesses weer.\n    "
+        )
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 
@@ -38520,7 +38597,7 @@ var render = function() {
     },
     [
       _vm._v(
-        "\n    Een CRUD gemaakt met VueJs, Axios en PHP. Met deze applicatie kun je leden toevoegen, uitlezen, updaten en verwijderen. Door middel van Axios kun je ajax request maken.\n"
+        "\n    Een CRUD gemaakt met VueJs, Axios en PHP. Met deze applicatie kun je leden toevoegen, uitlezen, updaten en verwijderen. Door middel van Axios kun je Ajax request maken.\n"
       )
     ]
   )

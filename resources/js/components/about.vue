@@ -1,17 +1,17 @@
 <template>
     <div>
         <div class="bg-gray-200 p-4 w-4/5">
-            <p>Hallo, wat leuk dat je op mijn website terecht bent gekomen! Mijn naam is Sebastian. Ik ben een student website- en webdeveloper uit Zeeland, om precies te zijn Waarde in de gemeente Reimerswaal.
+            <p>Hallo, wat leuk dat u op mijn website komt!<br> Mijn naam is Sebastian Tramper, student web-developer / software-developer uit Zeeland.<br> Om precies te zijn uit Waarde in de gemeente Reimerswaal.
                 <br> Zoals een echt Zeeuw betaamt, houd ik ervan om hard te werken en kwaliteit staat daarbij hoog in het vaandel!</p>
+        </div>
 
-            <p class="mt-6">Ik ben geboren in het jaar dat Richard Krajicek als eerste Nederlander ooit Wimbledon won en ‘Killing Me Softly’ van de Fugees de meest verkochte single was. Can you guess? 😊</p>
+        <div class="bg-gray-200 p-4 w-4/5 mt-8">
+            <p >Na mijn middelbare schooltijd in 2012 startte ik de opleiding constructie bankwerker. <br>Deze opleiding was gebaseerd op vier dagen werken en één dag naar school. <br> De opleiding betrof een periode van twee jaar en hierna heb ik nog eens twee jaar gewerkt in de metaal sector.</p>
 
-            <p class="mt-6">In 2018 heb ik de MBO opleiding ‘ICT management’ afgerond en ben in hetzelfde jaar begonnen met de opleiding ‘Software developer’ op het Grafisch Lyceum in Rotterdam.
-                <br>Ik werk graag met HTML, CSS, Javascript, php en SQL. Nu ik deze basis technieken goed beheers ben ik overgestapt naar frameworks. Op dit moment (2019) ben ik me aan het verdiepen in het php framework Laravel en VueJs. Verder ben ik ook redelijk bekwaam met Linux webservers.</p>
+            <p class="mt-6"><span class="font-black">carrièreswitch</span><br> Na een periode van vier jaar in de metaal sector heb ik er voor gekozen om een andere richting op te gaan. <br>En 2016 startte ik de opleiding ICT management MBO niveau 3. Deze opleiding sprak mij erg aan, met name de stages waren heel leerzaam en uitdagend. <a href="/cv" class="font-black">(zie Curriculum vitae)</a><br><br>
+            In mijn tweede jaar van deze opleiding groeide mijn intresse in programmeren en besloot ik om die richting op te gaan.<br> Na het behalen van de opleidng ICT management begon ik dus de opleiding <span class="font-black">Software developer</span> aan het Grafisch Lyceum te Rotterdam.</p>
 
-            <p class="mt-6"><a href="/Skills" class="font-black">klik hier </a>voor een volledige lijst van technieken die ik aan het leren ben,</p>
 
-            <p class="mt-6">Heb jij een verzoek of project waar ik jou bij kan helpen? Stuur me dan een berichtje en ik vertel je graag wat ik voor jou kan betekenen.</p>
         </div>
     </div>
 </template>
