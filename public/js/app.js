@@ -38202,7 +38202,7 @@ var staticRenderFns = [
           [
             _c("img", {
               staticClass: "w-1/4 mb-12",
-              attrs: { src: "/images/Github_Logo.png", alt: "github" }
+              attrs: { src: "/images/github1.png", alt: "github" }
             })
           ]
         )
