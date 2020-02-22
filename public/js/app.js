@@ -2330,12 +2330,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -38645,26 +38639,6 @@ var render = function() {
             _c("img", { attrs: { src: "/images/talen/jquery.png", alt: "" } }),
             _vm._v(" "),
             _c("img", { attrs: { src: "/images/talen/sass.png", alt: "" } })
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "project",
-          {
-            attrs: {
-              title: "fake social media",
-              imageUrl: "/images/work2.png",
-              projectUrl: "/social_media"
-            }
-          },
-          [
-            _c("img", { attrs: { src: "/images/talen/php.png", alt: "" } }),
-            _vm._v(" "),
-            _c("img", { attrs: { src: "/images/talen/mysql.svg", alt: "" } }),
-            _vm._v(" "),
-            _c("img", { attrs: { src: "/images/talen/html-5.svg", alt: "" } }),
-            _vm._v(" "),
-            _c("img", { attrs: { src: "/images/talen/css-5.svg", alt: "" } })
           ]
         ),
         _vm._v(" "),

@@ -31,12 +31,6 @@
                <img src="/images/talen/jquery.png" alt="">
                <img src="/images/talen/sass.png" alt="">
            </project>
-           <project title="fake social media" imageUrl="/images/work2.png" projectUrl="/social_media">
-               <img src="/images/talen/php.png" alt="">
-               <img src="/images/talen/mysql.svg" alt="">
-               <img src="/images/talen/html-5.svg" alt="">
-               <img src="/images/talen/css-5.svg" alt="">
-           </project>
            <project title="Kapsters aan huis" imageUrl="/images/kapster.png" projectUrl="/kapsters">
                <img src="/images/talen/html-5.svg" alt="">
                <img src="/images/talen/css-5.svg" alt="">
