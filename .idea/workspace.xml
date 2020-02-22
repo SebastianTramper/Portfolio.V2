@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c7d565f-7d7d-418d-90f8-8e30158bd8e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/subcomponents/project-content.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/uniekegerechten.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/uniekegerechten.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/CV.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/CV.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Data_visualisatie.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Data_visualisatie.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Food_blog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Food_blog.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Kapsters.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Kapsters.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Ouderavond.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Ouderavond.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Social_media.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Social_media.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Vue_crud.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Vue_crud.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/about.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/about.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/subcomponents/project.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/subcomponents/project.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="0c7d565f-7d7d-418d-90f8-8e30158bd8e0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,6 +167,7 @@
       <workItem from="1582105471891" duration="20000" />
       <workItem from="1582119017380" duration="6000" />
       <workItem from="1582119169791" duration="234000" />
+      <workItem from="1582356663632" duration="7000" />
     </task>
     <servers />
   </component>

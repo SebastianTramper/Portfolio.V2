@@ -7,7 +7,6 @@ import About from './components/About';
 import Data_visualisatie from './components/Data_visualisatie';
 import Vue_crud from './components/Vue_crud';
 import Ouderavond from './components/Ouderavond';
-import Social_media from './components/Social_media';
 import Kapsters from './components/Kapsters';
 import notFound from './components/notFound';
 
@@ -74,11 +73,6 @@ export default {
             path: '/ouderavond',
             component: Ouderavond,
             name: 'Ouderavond'
-        },
-        {
-            path: '/social_media',
-            component: Social_media,
-            name: 'Social_media'
         },
         {
             path: '/kapsters',

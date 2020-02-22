@@ -44,7 +44,6 @@
                                 <li class="pb-2"><router-link :to="{ name: 'Data_visualisatie' }">Data visualisatie</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Vue_crud' }">Vue / Axios crud</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Ouderavond' }">Reservering ouderavond</router-link></li>
-                                <li class="pb-2"><router-link :to="{ name: 'Social_media' }">Fake Social media</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Kapsters' }">Kapsters aan huis</router-link></li>
                             </ul>
                         </section>

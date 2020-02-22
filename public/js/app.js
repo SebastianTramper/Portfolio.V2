@@ -2252,31 +2252,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Social_media.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Social_media.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./subcomponents/project-content */ "./resources/js/components/subcomponents/project-content.vue");
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Social_media",
-  components: {
-    projectContent: _subcomponents_project_content__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Vue_crud.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Vue_crud.vue?vue&type=script&lang=js& ***!
@@ -38329,13 +38304,13 @@ var render = function() {
     {
       attrs: {
         content_image: "/images/kapster.png",
-        github_link: "https://github.com/SebastianTramper/work",
-        website_link: "http://work.cf/work/"
+        github_link: "https://github.com/SebastianTramper/hairdresser-Business",
+        website_link: "https://chaneldaisykapsters.nl/"
       }
     },
     [
       _vm._v(
-        "\n    mpus. Donec vitae sapien ut liberois leo. Sed fringilla mauris sit amet nibh. Donec  eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum  consectetuer eget, posuere ut,\n"
+        "\n   Dit is een website gemaakt voor mijn schoonzus, zij is kapster en knipt mensen aan huis. Om wat beter gevonden te kunnen worden heb ik aangeboden om een website te maken. Deze website was 1 van mijn eerste. Overigens heb ik wel veel geleerd van html, css & javascript.  \n"
       )
     ]
   )
@@ -38516,44 +38491,6 @@ var render = function() {
       })
     ],
     2
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Social_media.vue?vue&type=template&id=78ce8106&scoped=true&":
-/*!***************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Social_media.vue?vue&type=template&id=78ce8106&scoped=true& ***!
-  \***************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "projectContent",
-    {
-      attrs: {
-        content_image: "/images/work2.png",
-        github_link: "https://github.com/SebastianTramper/work",
-        website_link: "http://work.cf/work/"
-      }
-    },
-    [
-      _vm._v(
-        "\n    Dit is een fake socialmedia applicatie voor ondernemers. Je kunt hier inloggen, registeren, diensten en projecten toevoegen en de feed bekijken. We kregen voor dit project maar 12 uur de tijd en is dus werkend maar niet prefect desondanks hebben wel veel geleerd van PHP en SQL.     "
-      )
-    ]
   )
 }
 var staticRenderFns = []
@@ -54686,75 +54623,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/Social_media.vue":
-/*!**************************************************!*\
-  !*** ./resources/js/components/Social_media.vue ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Social_media_vue_vue_type_template_id_78ce8106_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Social_media.vue?vue&type=template&id=78ce8106&scoped=true& */ "./resources/js/components/Social_media.vue?vue&type=template&id=78ce8106&scoped=true&");
-/* harmony import */ var _Social_media_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Social_media.vue?vue&type=script&lang=js& */ "./resources/js/components/Social_media.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Social_media_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Social_media_vue_vue_type_template_id_78ce8106_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Social_media_vue_vue_type_template_id_78ce8106_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  "78ce8106",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/Social_media.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/Social_media.vue?vue&type=script&lang=js&":
-/*!***************************************************************************!*\
-  !*** ./resources/js/components/Social_media.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Social_media_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Social_media.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Social_media.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Social_media_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/Social_media.vue?vue&type=template&id=78ce8106&scoped=true&":
-/*!*********************************************************************************************!*\
-  !*** ./resources/js/components/Social_media.vue?vue&type=template&id=78ce8106&scoped=true& ***!
-  \*********************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Social_media_vue_vue_type_template_id_78ce8106_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Social_media.vue?vue&type=template&id=78ce8106&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Social_media.vue?vue&type=template&id=78ce8106&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Social_media_vue_vue_type_template_id_78ce8106_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Social_media_vue_vue_type_template_id_78ce8106_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
 /***/ "./resources/js/components/Vue_crud.vue":
 /*!**********************************************!*\
   !*** ./resources/js/components/Vue_crud.vue ***!
@@ -55256,10 +55124,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Data_visualisatie__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Data_visualisatie */ "./resources/js/components/Data_visualisatie.vue");
 /* harmony import */ var _components_Vue_crud__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Vue_crud */ "./resources/js/components/Vue_crud.vue");
 /* harmony import */ var _components_Ouderavond__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Ouderavond */ "./resources/js/components/Ouderavond.vue");
-/* harmony import */ var _components_Social_media__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Social_media */ "./resources/js/components/Social_media.vue");
-/* harmony import */ var _components_Kapsters__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/Kapsters */ "./resources/js/components/Kapsters.vue");
-/* harmony import */ var _components_notFound__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/notFound */ "./resources/js/components/notFound.vue");
-
+/* harmony import */ var _components_Kapsters__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Kapsters */ "./resources/js/components/Kapsters.vue");
+/* harmony import */ var _components_notFound__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/notFound */ "./resources/js/components/notFound.vue");
 
 
 
@@ -55276,7 +55142,7 @@ __webpack_require__.r(__webpack_exports__);
   linkActiveClass: 'font-bold',
   routes: [{
     path: '*',
-    component: _components_notFound__WEBPACK_IMPORTED_MODULE_11__["default"]
+    component: _components_notFound__WEBPACK_IMPORTED_MODULE_10__["default"]
   }, {
     path: '/',
     component: _components_Websites__WEBPACK_IMPORTED_MODULE_0__["default"]
@@ -55313,12 +55179,8 @@ __webpack_require__.r(__webpack_exports__);
     component: _components_Ouderavond__WEBPACK_IMPORTED_MODULE_8__["default"],
     name: 'Ouderavond'
   }, {
-    path: '/social_media',
-    component: _components_Social_media__WEBPACK_IMPORTED_MODULE_9__["default"],
-    name: 'Social_media'
-  }, {
     path: '/kapsters',
-    component: _components_Kapsters__WEBPACK_IMPORTED_MODULE_10__["default"],
+    component: _components_Kapsters__WEBPACK_IMPORTED_MODULE_9__["default"],
     name: 'Kapsters'
   }]
 });

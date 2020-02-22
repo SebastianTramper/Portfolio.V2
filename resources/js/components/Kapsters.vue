@@ -1,7 +1,7 @@
 <template>
-    <projectContent content_image="/images/kapster.png" github_link="https://github.com/SebastianTramper/work" website_link="http://work.cf/work/">
-        mpus. Donec vitae sapien ut liberois leo. Sed fringilla mauris sit amet nibh. Donec  eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum  consectetuer eget, posuere ut,
-    </projectContent>
+    <projectContent content_image="/images/kapster.png" github_link="https://github.com/SebastianTramper/hairdresser-Business" website_link="https://chaneldaisykapsters.nl/">
+    Dit is een website gemaakt voor mijn schoonzus, zij is kapster en knipt mensen aan huis. Om wat beter gevonden te kunnen worden heb ik aangeboden om een website te maken. Deze website was 1 van mijn eerste. Overigens heb ik wel veel geleerd van html, css & javascript.  
+ </projectContent>
 </template>
 
 <script>
