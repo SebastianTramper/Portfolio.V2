@@ -7,13 +7,19 @@ footer {
   margin: 0 auto !important;
 }
 
+.maxw1 {
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .avatar {
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
 }
 
 body {
-  background: #e6e6fa !important;
+  background: #e2e8f0 !important;
 }
 
 header,
@@ -220,5 +226,120 @@ li {
 
 .content_github {
   margin-bottom: 1rem;
+}
+
+.navbar {
+  padding-left: 43px;
+  display: none;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
+}
+
+.navbar span {
+  height: 2px;
+  background: #fff;
+  width: 100%;
+  display: block;
+}
+
+.navbar span:nth-last-child(2) {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.menu {
+  display: block;
+}
+
+@-webkit-keyframes nav {
+  0% {
+    left: -300px;
+  }
+
+  99% {
+    left: 0px;
+  }
+
+  100% {
+    left: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+@keyframes nav {
+  0% {
+    left: -300px;
+  }
+
+  99% {
+    left: 0px;
+  }
+
+  100% {
+    left: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .menu {
+    display: none;
+  }
+
+  .active {
+    display: block;
+    -webkit-animation-name: nav;
+            animation-name: nav;
+    -webkit-animation-duration: 200ms;
+            animation-duration: 200ms;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    background: #fff;
+    z-index: 100;
+    left: -300px;
+    top: 0px;
+    border-right: 1px solid #e6e6fa;
+    padding-left: 20px;
+    height: 100vh;
+    position: absolute;
+  }
+
+  main {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .navbar {
+    padding-left: 24px;
+    display: block;
+  }
+
+  .header-content {
+    padding-left: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .header-title {
+    font-size: 24px;
+  }
+
+  .menu-inside {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header-title {
+    font-size: 20px;
+  }
 }
 

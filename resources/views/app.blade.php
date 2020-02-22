@@ -13,10 +13,9 @@
     </head>
     <body class="relative">
         <div id="app">
-            <nav-menu></nav-menu>
             <section class="container bg-white">
-                <header class="py-2 mb-16" style="background-color: #36558F!important;">
-                    <section class="px-8 text-4xl flex align-items-center">
+                <header class="py-2 " style="background-color: #36558F!important;">
+                    <section class="header-content px-8 text-4xl flex align-items-center">
                         <div class="mt-6 mb-4 w-20">
                             <img src="/images/profiel.jpg" alt="" class="avatar rounded-full">
                         </div>
@@ -25,10 +24,17 @@
                         </h1>
                     </section>
                 </header>
-                <main class="flex px-8 pb-32">
-                    <aside class="w-64 hidden lg:block aside">
-                        <section class="mb-8">
-                            <h5 class="uppercase font-bold mb-4">Informatie</h5>
+                <section class="navbar maxw1 w-full h-16 " style="background: #EF6F6C!important;">
+                    <section class="hamburger"  v-on:click="menuActive = !menuActive" >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </section>
+                </section>
+                <main class="flex px-8 pb-32 relative">
+                    <aside class="w-64 aside menu" v-bind:class="{ active: menuActive }">
+                        <section class="mb-8 menu-inside">
+                            <h5 class="uppercase font-bold mb-4 mt-16 ">Informatie</h5>
                             <ul>
                                 <li class="pb-2"><router-link :to="{ name: 'About' }">Over mij</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'CV' }">Curriculum vitae</router-link></li>
@@ -48,7 +54,7 @@
                             </ul>
                         </section>
 
-                        <section class="mb-16 settings">
+                        <section class="mt-16 mb-16 settings">
                             <h5 class="uppercase font-bold mb-4">Settings</h5>
                             <ul>
                                 <li class="pb-2"  v-on:click="fontIncrement">larger font</li>
@@ -56,7 +62,7 @@
                             </ul>
                         </section>
                     </aside>
-                    <div class="primary flex-1">
+                    <div class="primary flex-1 mt-16 ">
                         <router-view></router-view>
                     </div>
 

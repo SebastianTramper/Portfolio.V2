@@ -18,6 +18,7 @@ const app = new Vue({
 
     data: {
         menu: false,
+        menuActive: false
     },
 
     mounted: function(){

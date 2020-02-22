@@ -27,7 +27,7 @@
                 <p><span class="font-bold block mb-2">MBO 2: Contructie bankwerker</span>(Scalda Vlissingen 2012 t/m 2014) </p>
             </div>
         </div>
-        <div class="stage mt-8 bg-gray-200 p-4">
+        <div class="stage mt-8 bg-gray-200 p-4" id="dorst">
             <h2 class="text-xl font-bold ">Werkervaring:</h2>
             <div class="stage-1 mt-4">
                 <h3 class="font-bold mb-2">Dorstcommunicatie Yerseke | webdeveloper</h3>

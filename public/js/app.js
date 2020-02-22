@@ -38035,77 +38035,83 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "stage mt-8 bg-gray-200 p-4" }, [
-        _c("h2", { staticClass: "text-xl font-bold " }, [
-          _vm._v("Werkervaring:")
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "stage-1 mt-4" }, [
-          _c("h3", { staticClass: "font-bold mb-2" }, [
-            _vm._v("Dorstcommunicatie Yerseke | webdeveloper")
+      _c(
+        "div",
+        { staticClass: "stage mt-8 bg-gray-200 p-4", attrs: { id: "dorst" } },
+        [
+          _c("h2", { staticClass: "text-xl font-bold " }, [
+            _vm._v("Werkervaring:")
           ]),
           _vm._v(" "),
-          _c("p", { staticClass: "mb-2 " }, [
-            _c("ul", [
-              _c("li", [
-                _vm._v("-\tPhotoshop bestand naar HTML, CSS en Javascript")
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _vm._v("-\tWebsite beheerbaar maken met Wordpress & PHP")
-              ]),
-              _vm._v(" "),
-              _c("li", [_vm._v("-\tBestaande websites bijwerken")])
+          _c("div", { staticClass: "stage-1 mt-4" }, [
+            _c("h3", { staticClass: "font-bold mb-2" }, [
+              _vm._v("Dorstcommunicatie Yerseke | webdeveloper")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "mb-2 " }, [
+              _c("ul", [
+                _c("li", [
+                  _vm._v("-\tPhotoshop bestand naar HTML, CSS en Javascript")
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v("-\tWebsite beheerbaar maken met Wordpress & PHP")
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("-\tBestaande websites bijwerken")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
+              _vm._v("juni 2019 t/m heden")
+            ]),
+            _vm._v(" "),
+            _c("hr")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "stage-4 mt-4" }, [
+            _c("h3", { staticClass: "font-bold mb-2" }, [
+              _vm._v(
+                "Meeuwsen Trade & Metal Services BV | Contructie bankwerker"
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "mb-2 " }, [
+              _c("ul", [
+                _c("li", [_vm._v("-\tContructie werkzaamheden")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("-\tTig lassen")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("-\tMig lassen")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
+              _vm._v("2014 - 2016")
             ])
           ]),
           _vm._v(" "),
-          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
-            _vm._v("juni 2019 t/m heden")
-          ]),
-          _vm._v(" "),
-          _c("hr")
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "stage-4 mt-4" }, [
-          _c("h3", { staticClass: "font-bold mb-2" }, [
-            _vm._v("Meeuwsen Trade & Metal Services BV | Contructie bankwerker")
-          ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "mb-2 " }, [
-            _c("ul", [
-              _c("li", [_vm._v("-\tContructie werkzaamheden")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("-\tTig lassen")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("-\tMig lassen")])
+          _c("div", { staticClass: "stage-4 mt-4" }, [
+            _c("h3", { staticClass: "font-bold mb-2" }, [
+              _vm._v("Tramper Technology BV | Contructie bankwerker")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "mb-2 " }, [
+              _c("ul", [
+                _c("li", [_vm._v("-\tContructie werkzaamheden")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("-\tTig lassen")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("-\tMag lassen")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
+              _vm._v("2012 - 2014")
             ])
-          ]),
-          _vm._v(" "),
-          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
-            _vm._v("2014 - 2016")
           ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "stage-4 mt-4" }, [
-          _c("h3", { staticClass: "font-bold mb-2" }, [
-            _vm._v("Tramper Technology BV | Contructie bankwerker")
-          ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "mb-2 " }, [
-            _c("ul", [
-              _c("li", [_vm._v("-\tContructie werkzaamheden")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("-\tTig lassen")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("-\tMag lassen")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
-            _vm._v("2012 - 2014")
-          ])
-        ])
-      ]),
+        ]
+      ),
       _vm._v(" "),
       _c("div", { staticClass: "stage mt-8 bg-gray-200 p-4" }, [
         _c("h2", { staticClass: "text-xl font-bold " }, [
@@ -54017,7 +54023,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
   router: new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"](_routes__WEBPACK_IMPORTED_MODULE_2__["default"]),
   data: {
-    menu: false
+    menu: false,
+    menuActive: false
   },
   mounted: function mounted() {
     this.randomColors();
