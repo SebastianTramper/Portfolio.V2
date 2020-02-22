@@ -326,7 +326,7 @@ li {
     padding-left: 16px !important;
   }
 
-  body {
+  #app {
     overflow-x: hidden !important;
   }
 }
