@@ -38037,7 +38037,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "stage mt-8 bg-gray-200 p-4" }, [
         _c("h2", { staticClass: "text-xl font-bold " }, [
-          _vm._v("Werk ervaring:")
+          _vm._v("Werkervaring:")
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "stage-1 mt-4" }, [
