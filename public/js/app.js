@@ -37871,7 +37871,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { staticClass: "about-me" }, [
       _c("div", { staticClass: "bg-gray-200 p-4 w-4/5" }, [
         _c("p", [
           _vm._v("Hallo, wat leuk dat u op mijn website komt!"),
@@ -38893,7 +38893,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("article", { staticClass: "aProjectContainerHeader" }, [
-    _c("h1", [_vm._v(_vm._s(_vm.title))]),
+    _c("h1", { staticClass: "project-title" }, [_vm._v(_vm._s(_vm.title))]),
     _vm._v(" "),
     _c(
       "a",

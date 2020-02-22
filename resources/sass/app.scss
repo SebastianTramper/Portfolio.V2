@@ -270,7 +270,7 @@ li{
         padding-left: 1rem!important;
         padding-right: 1rem!important;
     }
-    
+     
     .navbar{
         padding-left: 24px;
         display: block;
@@ -283,10 +283,32 @@ li{
     #app{
         overflow-x: hidden!important;
     }
+
+    .about-me div{
+        width: 100%!important;;
+    }
+
+    .contact-container img,.mail{
+        width: 200px;
+    }
     
+    .project-title{
+        font-size: 24px!important;
+        top: 40%;
+    }
 
 }
 
+@media only screen and (max-width: 720px) {
+    .project-title{
+        font-size: 18px!important;
+        top: 45%!important;
+    }
+
+    .aProjectContainerHeader img{
+        display: none!important;
+    }
+}
 
 @media only screen and (max-width: 520px) {
     .header-title{
@@ -315,6 +337,18 @@ li{
     main{
         padding-bottom: 202px!important;
     }
+
+    .content-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .allProject{
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media only screen and (max-width: 400px) {

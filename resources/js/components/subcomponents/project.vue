@@ -1,6 +1,6 @@
 <template>
     <article class="aProjectContainerHeader">
-        <h1>{{ title }}</h1>
+        <h1 class="project-title">{{ title }}</h1>
 
         <a v-bind:href=" projectUrl " class="aProjectContainer">
             <div class="aProject"  v-bind:style="{ background: 'url(' + imageUrl + ') center/cover'}"></div>

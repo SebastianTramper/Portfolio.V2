@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="about-me">
         <div class="bg-gray-200 p-4 w-4/5">
             <p>Hallo, wat leuk dat u op mijn website komt!<br> Mijn naam is Sebastian Tramper, student web-developer / software-developer uit Zeeland.<br> Om precies te zijn uit Waarde in de gemeente Reimerswaal.
                 <br> Zoals een echt Zeeuw betaamt, houd ik ervan om hard te werken en kwaliteit staat daarbij hoog in het vaandel!</p>
