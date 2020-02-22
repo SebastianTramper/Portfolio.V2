@@ -353,6 +353,7 @@ li {
   footer ul li {
     width: 3rem;
     padding-top: 1rem;
+    display: block;
   }
 
   main {
