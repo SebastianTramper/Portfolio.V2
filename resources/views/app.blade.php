@@ -16,7 +16,7 @@
             <section class="container bg-white">
                 <header class="py-2 " style="background-color: #36558F!important;">
                     <section class="header-content px-8 text-4xl flex align-items-center">
-                        <div class="mt-6 mb-4 w-20">
+                        <div class="mt-6 mb-4 w-20 profiel">
                             <img src="/images/profiel.jpg" alt="" class="avatar rounded-full">
                         </div>
                         <h1 class="header-title text-white ml-8 self-center justify-center">
