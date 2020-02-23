@@ -39,7 +39,7 @@
                         <section class="mb-8 menu-inside">
                             <h5 class="uppercase font-bold mb-4 mt-16 ">Informatie</h5>
                             <ul>
-                                <li class="pb-2"><router-link :to="{ name: 'About' }">Over mij</router-link></li>
+                                <li class="pb-2"><router-link :to="{ name: 'About' }" exact>Over mij</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'CV' }">Curriculum vitae</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Skills' }">Skills</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Contact' }">Contact</router-link></li>
@@ -48,7 +48,7 @@
                         <section class="mb-16">
                             <h5 class="uppercase font-bold mb-4">Projecten</h5>
                             <ul>
-                                <li class="pb-2" v-on:click="randomColors"><router-link to="/" exact>Alle projecten</router-link></li>
+                                <li class="pb-2" v-on:click="randomColors"><router-link :to="{ name: 'Websites'}" >Alle projecten</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Food_blog' }">Food blog</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Data_visualisatie' }">Data visualisatie</router-link></li>
                                 <li class="pb-2"><router-link :to="{ name: 'Vue_crud' }">Vue / Axios crud</router-link></li>

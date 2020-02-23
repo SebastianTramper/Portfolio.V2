@@ -24,8 +24,9 @@ export default {
         },
 
         {
-            path: '/',
-            component: Websites
+            path: '/websites',
+            component: Websites,
+            name: 'Websites'
         },
 
         {
@@ -53,7 +54,7 @@ export default {
         },
 
         {
-            path: '/about',
+            path: '/',
             component: About,
             name: 'About'
         },

@@ -55171,8 +55171,9 @@ __webpack_require__.r(__webpack_exports__);
     path: '*',
     component: _components_notFound__WEBPACK_IMPORTED_MODULE_10__["default"]
   }, {
-    path: '/',
-    component: _components_Websites__WEBPACK_IMPORTED_MODULE_0__["default"]
+    path: '/websites',
+    component: _components_Websites__WEBPACK_IMPORTED_MODULE_0__["default"],
+    name: 'Websites'
   }, {
     path: '/skills',
     component: _components_Skills__WEBPACK_IMPORTED_MODULE_1__["default"],
@@ -55190,7 +55191,7 @@ __webpack_require__.r(__webpack_exports__);
     component: _components_Contact__WEBPACK_IMPORTED_MODULE_4__["default"],
     name: 'Contact'
   }, {
-    path: '/about',
+    path: '/',
     component: _components_About__WEBPACK_IMPORTED_MODULE_5__["default"],
     name: 'About'
   }, {
