@@ -37912,12 +37912,8 @@ var staticRenderFns = [
           ),
           _c("br"),
           _vm._v(
-            " Na het behalen van de opleidng ICT management begon ik dus de opleiding "
-          ),
-          _c("span", { staticClass: "font-black" }, [
-            _vm._v("Software developer")
-          ]),
-          _vm._v(" aan het Grafisch Lyceum te Rotterdam.")
+            " Na het behalen van de opleidng ICT management begon ik dus de opleiding Software developer aan het Grafisch Lyceum te Rotterdam."
+          )
         ])
       ])
     ])
