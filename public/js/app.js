@@ -1953,19 +1953,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -38071,43 +38058,15 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "stage-4 mt-4" }, [
             _c("h3", { staticClass: "font-bold mb-2" }, [
-              _vm._v(
-                "Meeuwsen Trade & Metal Services BV | Contructie bankwerker"
-              )
+              _vm._v("Contructie bankwerker")
             ]),
             _vm._v(" "),
             _c("p", { staticClass: "mb-2 " }, [
-              _c("ul", [
-                _c("li", [_vm._v("-\tContructie werkzaamheden")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("-\tTig lassen")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("-\tMig lassen")])
-              ])
+              _c("ul", [_c("li", [_vm._v("-\tContructie werkzaamheden")])])
             ]),
             _vm._v(" "),
             _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
-              _vm._v("2014 - 2016")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "stage-4 mt-4" }, [
-            _c("h3", { staticClass: "font-bold mb-2" }, [
-              _vm._v("Tramper Technology BV | Contructie bankwerker")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "mb-2 " }, [
-              _c("ul", [
-                _c("li", [_vm._v("-\tContructie werkzaamheden")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("-\tTig lassen")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("-\tMag lassen")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("i", { staticClass: "mt-2 text-blue-800 font-bold text-sm" }, [
-              _vm._v("2012 - 2014")
+              _vm._v("2012 - 2016")
             ])
           ])
         ]

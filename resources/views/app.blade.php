@@ -10,6 +10,9 @@
         <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/app.css">
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="favicon" href="/img/profiel.png">
+        <link rel="icon" href="images/profiel.png" type="image/gif" sizes="16x16">
+
     </head>
     <body class="relative">
         <div id="app">

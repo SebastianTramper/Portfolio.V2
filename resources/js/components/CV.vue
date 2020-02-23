@@ -42,26 +42,13 @@
                 <hr>
             </div>
             <div class="stage-4 mt-4">
-                <h3 class="font-bold mb-2">Meeuwsen Trade & Metal Services BV | Contructie bankwerker</h3>
+                <h3 class="font-bold mb-2">Contructie bankwerker</h3>
                 <p class="mb-2 ">
                     <ul>
                         <li>-	Contructie werkzaamheden</li>
-                        <li>-	Tig lassen</li>
-                        <li>-	Mig lassen</li>
                     </ul>
                 </p>
-                <i class="mt-2 text-blue-800 font-bold text-sm">2014 - 2016</i>
-            </div>
-            <div class="stage-4 mt-4">
-                <h3 class="font-bold mb-2">Tramper Technology BV | Contructie bankwerker</h3>
-                <p class="mb-2 ">
-                    <ul>
-                        <li>-	Contructie werkzaamheden</li>
-                        <li>-	Tig lassen</li>
-                        <li>-	Mag lassen</li>
-                    </ul>
-                </p>
-                <i class="mt-2 text-blue-800 font-bold text-sm">2012 - 2014</i>
+                <i class="mt-2 text-blue-800 font-bold text-sm">2012 - 2016</i>
             </div>
         </div>
 
