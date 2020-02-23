@@ -21,7 +21,7 @@
         <div class="eduction mt-8 bg-gray-200 p-4">
             <h2 class="text-xl font-bold">Genoten opleidingen:</h2>
             <div class="eduction-1 mt-4">
-                <p><span class="font-bold block mb-2">MBO 3: ICT beheer</span>(Scalda Vlissingen 2016 t/m 2018) </p>
+                <p><span class="font-bold block mb-2">MBO 3: ICT</span>(Scalda Vlissingen 2016 t/m 2018) </p>
             </div>
             <div class="eduction-2 mt-4">
                 <p><span class="font-bold block mb-2">MBO 2: Contructie bankwerker</span>(Scalda Vlissingen 2012 t/m 2014) </p>

@@ -1856,6 +1856,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -37890,21 +37892,33 @@ var staticRenderFns = [
           _vm._v(
             " De opleiding betrof een periode van twee jaar en hierna heb ik nog eens twee jaar gewerkt in de metaal sector."
           )
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "mt-6" }, [
-          _c("span", { staticClass: "font-black" }, [_vm._v("carrièreswitch")]),
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "bg-gray-200 p-4 w-4/5 mt-8" }, [
+        _c("p", [
+          _c("span", { staticClass: "font-black" }, [_vm._v("Carrièreswitch")]),
           _c("br"),
           _vm._v(
             " Na een periode van vier jaar in de metaal sector heb ik er voor gekozen om een andere richting op te gaan. "
           ),
           _c("br"),
           _vm._v(
-            "En 2016 startte ik de opleiding ICT management MBO niveau 3. Deze opleiding sprak mij erg aan, met name de stages waren heel leerzaam en uitdagend. "
+            "En 2016 startte ik de opleiding ICT management MBO niveau 3."
           ),
-          _c("a", { staticClass: "font-black", attrs: { href: "/cv" } }, [
-            _vm._v("(zie Curriculum vitae)")
-          ]),
+          _c("br"),
+          _vm._v(
+            " Deze opleiding sprak mij erg aan, met name de stages waren heel leerzaam en uitdagend. "
+          ),
+          _c(
+            "a",
+            {
+              staticClass: "underline",
+              staticStyle: { color: "#36558F!important" },
+              attrs: { href: "/cv" }
+            },
+            [_vm._v("(zie Curriculum vitae)")]
+          ),
           _c("br"),
           _c("br"),
           _vm._v(
@@ -38002,7 +38016,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "eduction-1 mt-4" }, [
           _c("p", [
             _c("span", { staticClass: "font-bold block mb-2" }, [
-              _vm._v("MBO 3: ICT beheer")
+              _vm._v("MBO 3: ICT")
             ]),
             _vm._v("(Scalda Vlissingen 2016 t/m 2018) ")
           ])

@@ -7,8 +7,10 @@
 
         <div class="bg-gray-200 p-4 w-4/5 mt-8">
             <p >Na mijn middelbare schooltijd in 2012 startte ik de opleiding constructie bankwerker. <br>Deze opleiding was gebaseerd op vier dagen werken en één dag naar school. <br> De opleiding betrof een periode van twee jaar en hierna heb ik nog eens twee jaar gewerkt in de metaal sector.</p>
-
-            <p class="mt-6"><span class="font-black">carrièreswitch</span><br> Na een periode van vier jaar in de metaal sector heb ik er voor gekozen om een andere richting op te gaan. <br>En 2016 startte ik de opleiding ICT management MBO niveau 3. Deze opleiding sprak mij erg aan, met name de stages waren heel leerzaam en uitdagend. <a href="/cv" class="font-black">(zie Curriculum vitae)</a><br><br>
+        </div>
+        <div class="bg-gray-200 p-4 w-4/5 mt-8">
+    
+            <p><span class="font-black">Carrièreswitch</span><br> Na een periode van vier jaar in de metaal sector heb ik er voor gekozen om een andere richting op te gaan. <br>En 2016 startte ik de opleiding ICT management MBO niveau 3.<br> Deze opleiding sprak mij erg aan, met name de stages waren heel leerzaam en uitdagend. <a href="/cv" class="underline" style="color: #36558F!important;">(zie Curriculum vitae)</a><br><br>
             In mijn tweede jaar van deze opleiding groeide mijn intresse in programmeren en besloot ik om die richting op te gaan.<br> Na het behalen van de opleidng ICT management begon ik dus de opleiding Software developer aan het Grafisch Lyceum te Rotterdam.</p>
 
 
