@@ -37979,7 +37979,7 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("p", [_vm._v("Gespecialiseerd in php & laravel")])
+          _c("p", [_vm._v("Gespecialiseerd in Php & Laravel")])
         ])
       ]),
       _vm._v(" "),

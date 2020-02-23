@@ -9,7 +9,7 @@
             <h2 class="text-xl font-bold">Ambitie:</h2>
             <div class="eduction-1 mt-4">
                 <p><span class="font-bold block mb-2">Back-end programmeur</span></p>
-		        <p>Gespecialiseerd in php & laravel</p>
+		        <p>Gespecialiseerd in Php & Laravel</p>
             </div>
         </div>
          <div class="eduction bg-gray-200 p-4 mt-8">
